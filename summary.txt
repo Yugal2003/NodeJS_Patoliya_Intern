@@ -1,0 +1,6 @@
+NOTE => without app.use() you can't use an Application Level Middleware OR Route Level Middleware in ExpressJS
+
+In Application Level Middleware first  you have to involve an app.use and after another some routes like  '/' '/about' etc...  without app.use() they not work...
+
+
+In Route Level Middleware first  you have to involve an app.use and after another some routes like  '/' '/about' etc in Router.get etc... without app.use() they not work...

@@ -4,13 +4,16 @@
   "description": "\"Just Practice\"",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon middleware.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "\"Yugal\"",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.7"
   }
 }
